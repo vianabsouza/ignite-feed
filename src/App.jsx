@@ -1,5 +1,9 @@
-function App() {
-  return <p>Lorem ipsum</p>;
-}
+import { Header } from "./components/Header";
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
