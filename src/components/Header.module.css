@@ -1,6 +1,14 @@
 .header {
-  background: #333;
-  display: inline-block;
+  align-items: center;
+  background: var(--gray-800);
+  display: flex;
+  gap: 0.5rem;
   height: 80px;
+  justify-content: center;
+  padding: 1.25rem 0;
   width: 100%;
+}
+
+.header img {
+  height: 2rem;
 }
