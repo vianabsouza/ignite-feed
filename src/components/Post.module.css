@@ -45,14 +45,6 @@
   gap: 1rem;
 }
 
-.author img {
-  border: 4px solid var(--gray-800);
-  border-radius: 8px;
-  height: calc(3rem + 12px);
-  outline: 2px solid var(--green-500);
-  width: calc(3rem + 12px);
-}
-
 .authorInfo strong {
   color: var(--gray-100);
   display: block;
